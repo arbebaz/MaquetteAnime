@@ -1,0 +1,362 @@
+*{
+    margin: 0;
+}
+
+.ligne{
+
+    width: 5rem;
+    margin-top: 1rem;
+}
+
+header{
+
+    background: url(../img/luffy.jpeg);
+    height: 25rem;
+    background-position-y: 33rem;
+    background-size: cover;
+}
+
+h1, h2{
+
+    color: rgb(255, 110, 110);
+    font-family: Verdana;
+}
+p{
+    color: grey;
+    font-family: Verdana;
+    
+}
+#debut{
+
+    display: flex;
+}
+
+#TitreUn{
+
+    font-size: 1.5rem;
+    margin-top: 5rem;
+    margin-left: 2rem;
+    margin-top: 8rem;
+
+}
+
+.Img{
+
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 5rem;
+    margin-top: 1rem;
+    
+}
+
+.i{
+    margin: 1rem;
+}
+
+
+#milieu{
+
+    border: 67px solid #cbcbcb;
+    display: flex;
+    margin-top: 3rem;
+}
+
+#TitreDeux{
+
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+#milieu .ligne{
+
+    margin: auto;
+    margin-top: 1rem;
+}
+
+#avantFin{
+
+    display: flex;
+    font-size: 1rem;
+    margin: auto;
+    justify-content: center;
+}
+
+#avantFin h2{
+
+    margin-top: 1rem;
+}
+
+#gauche, #droite{
+
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 7rem;
+    
+    
+}
+
+.para{
+    margin-bottom: 7rem;
+    margin-top: 5rem;
+}
+
+#avantFin .ligne{
+
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.titre{
+
+    margin-bottom: 7rem;
+    margin-top: 5rem;
+}
+
+#fin{
+
+    background: url(../img/contact.jpeg);
+    height: 40rem;
+    background-position-y: 50rem;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    background-color: #c45959;
+    color: white;
+    border-width: 0;
+    border-radius: 5px;
+    width: 18rem;
+    font-size: 2rem;
+    margin-left: 7rem;
+    margin-top: 1rem;
+}
+
+#fin div, button{
+    
+    color: white;
+    font-size: 3rem;
+    
+}
+
+footer{
+
+    background-color: black;
+    color: white;
+    height: 18rem;
+}
+
+footer p{
+
+    background-color: black;
+    color: white;
+    height: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+}
+
+
+              /* RESPONSIVE */
+
+
+@media only screen and (max-width: 760px) {
+    header {
+      
+        background: url(../img/luffy.jpeg);
+        height: 10rem;
+        background-position-y: -5rem;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .ligne{
+
+        width: 3rem;
+        margin-top: 0.5rem;
+    }
+
+    h1, h2{
+
+        color: rgb(255, 110, 110);
+        font-family: Verdana;
+    }
+    p{
+        color: grey;
+        font-family: Verdana;
+        
+    }
+    #debut{
+    
+        /* display: flex; */
+        display: flex;
+        flex-direction: column;
+        padding-top: 1rem;
+    }
+    
+    #TitreUn{
+    
+    font-size: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+        
+    }
+    
+    #Imagee{
+        display: flex;
+        justify-content: center;
+    }
+
+    .Img{
+
+    /* justify-content: center; */
+    flex-direction: column;
+    margin-top: 1rem;
+    margin-left: 0;
+}
+        
+    
+    
+    .i{
+        margin: 0.5rem;
+        height: 120px;
+    }
+    
+    
+    #milieu{
+    
+        border: 20px solid #cbcbcb;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 1rem;
+        align-items: center;
+        
+    }
+
+    #milieu iframe{
+
+        width: 400px;
+        height: 200px;
+        margin-bottom: 3rem;
+
+    }
+
+    
+    
+    #TitreDeux{
+    
+        margin: auto;
+        justify-content: center;
+        text-align: center;
+        font-size: 0.8rem;
+        height: 10rem; 
+        margin-top: 1rem;
+    }
+    
+    #milieu .ligne{
+    
+        margin: auto;
+        margin-top: 1rem;
+    }
+    
+    #avantFin{
+    
+        display: flex;
+        font-size: 1rem;
+        margin: auto;
+        justify-content: center;
+    }
+    
+    #avantFin h2{
+    
+        margin-top: 1rem;
+    }
+    
+    #gauche, #droite{
+    
+        text-align: center;
+        margin-top: 5rem;
+        margin-bottom: 7rem;
+        
+        
+    }
+    
+    .para{
+        margin-bottom: 7rem;
+        margin-top: 5rem;
+    }
+    
+    #avantFin .ligne{
+    
+        margin: auto;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    
+    .titre{
+    
+        margin-bottom: 7rem;
+        margin-top: 5rem;
+    }
+    
+    #fin{
+    
+        background: url(../img/contact.jpeg);
+        height: 40rem;
+        background-position-y: 50rem;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    button{
+        background-color: #c45959;
+        color: white;
+        border-width: 0;
+        border-radius: 5px;
+        width: 18rem;
+        font-size: 2rem;
+        margin-left: 7rem;
+        margin-top: 1rem;
+    }
+    
+    #fin div, button{
+        
+        color: white;
+        font-size: 3rem;
+        
+    }
+    
+    footer{
+    
+        background-color: black;
+        color: white;
+        height: 18rem;
+    }
+    
+    footer p{
+    
+        background-color: black;
+        color: white;
+        height: 15rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 3rem;
+    }
+
+
+  }
+
+
